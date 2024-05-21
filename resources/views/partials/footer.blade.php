@@ -3,7 +3,7 @@
         <div class="row flex-column justify-content-flex-end dc-footerCont">
             <footer class="p-0 ">
                 <div class="d-flex justify-content-center dc-footerLinks">
-                    <div class="col-8 d-flex dc-bigLogo">
+                    <div class="col-8 d-flex dc-bigLogo container">
                         <div class="dc-listContainer">
                             <h5 class="text-uppercase text-light">dc comics</h5>
                             <ol class="list-unstyled text-light">
