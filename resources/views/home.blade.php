@@ -19,4 +19,18 @@
             </div>
         </div>
     </section>
+    <section id="sections_bar">
+        <div class="container">
+            <div class="row p-5">
+
+                {{-- @foreach ($comics as $comic)
+                    <div class="col d-flex justify-content-center align-items-center gap-2 p-3">
+                        <img src="{{ $comic['thumb']}}" alt="" class="">
+                        <div id="title" class="fw-semibold">{{ $comic['title'] }}</div>
+                    </div>
+                @endforeach --}}
+
+            </div>
+        </div>
+    </section>
 @endsection

@@ -6,11 +6,11 @@
             </a>
             <div class="navbar" id="navbarNavDropdown">
                 <ul class="navbar-nav fw-bold">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">CHARACTERS</a>
+                    <li class="nav-item {{ Route::currentRouteName() === 'home' ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('home') }}">HOME</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">COMICS</a>
+                    <li class="nav-item {{ Route::currentRouteName() === 'comics' ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('comics') }}">COMICS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">MOVIES</a>
@@ -33,8 +33,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">NEWS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SHOP</a>
+                    <li class="nav-item{{ Route::currentRouteName() === 'about' ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('about') }}">ABOUT</a>
                     </li>
                 </ul>
             </div>
