@@ -62,7 +62,7 @@
                                     alt=""></a>
                             <a href="#" class="ms-3"><img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}"
                                     alt=""></a>
-                            <a href="#" class="ms-3"><img src="{{ Vite::asset('resources/img/footer-periscope.pn') }}g"
+                            <a href="#" class="ms-3"><img src="{{ Vite::asset('resources/img/footer-periscope.png') }}g"
                                     alt=""></a>
                         </div>
                     </div>
